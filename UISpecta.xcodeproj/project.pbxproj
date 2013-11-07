@@ -55,6 +55,7 @@
 		A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beVisibleTest.m"; sourceTree = "<group>"; };
 		A193DDE4182C1EC90051F93D /* EXPMatchers+beVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beVisible.h"; sourceTree = "<group>"; };
 		A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beVisible.m"; sourceTree = "<group>"; };
+		A193DDE7182C221B0051F93D /* UISpecta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISpecta.h; sourceTree = "<group>"; };
 		A1E1DCA1182BF70100D86C98 /* libUISpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E1DCA4182BF70100D86C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1E1DCB1182BF70100D86C98 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				A1E1DCCB182BF75F00D86C98 /* UISpecta-Prefix.pch */,
+				A193DDE7182C221B0051F93D /* UISpecta.h */,
 				A193DDDD182C198E0051F93D /* UISpectaSupport.h */,
 				A193DDDE182C198E0051F93D /* UISpectaSupport.m */,
 				A1E1DCE9182BFD4300D86C98 /* EXPMatchers+beAnimating.h */,

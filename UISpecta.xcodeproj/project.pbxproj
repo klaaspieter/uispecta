@@ -10,6 +10,8 @@
 		5BC13AE4F70943B58D8BBCF1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40970767B6F4F01B67A94CA /* libPods-Tests.a */; };
 		A193DDDA182C17890051F93D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193DDD9182C17890051F93D /* SenTestingKit.framework */; };
 		A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDDE182C198E0051F93D /* UISpectaSupport.m */; };
+		A193DDE3182C1DD90051F93D /* EXPMatchers+beVisibleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */; };
+		A193DDE6182C1EC90051F93D /* EXPMatchers+beVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */; };
 		A1E1DCA5182BF70100D86C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCA4182BF70100D86C98 /* Foundation.framework */; };
 		A1E1DCB3182BF70100D86C98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCB2182BF70100D86C98 /* XCTest.framework */; };
 		A1E1DCB4182BF70100D86C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCA4182BF70100D86C98 /* Foundation.framework */; };
@@ -50,6 +52,9 @@
 		A193DDD9182C17890051F93D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A193DDDD182C198E0051F93D /* UISpectaSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpectaSupport.h; sourceTree = "<group>"; };
 		A193DDDE182C198E0051F93D /* UISpectaSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpectaSupport.m; sourceTree = "<group>"; };
+		A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beVisibleTest.m"; sourceTree = "<group>"; };
+		A193DDE4182C1EC90051F93D /* EXPMatchers+beVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beVisible.h"; sourceTree = "<group>"; };
+		A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beVisible.m"; sourceTree = "<group>"; };
 		A1E1DCA1182BF70100D86C98 /* libUISpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E1DCA4182BF70100D86C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1E1DCB1182BF70100D86C98 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,10 +138,12 @@
 			isa = PBXGroup;
 			children = (
 				A1E1DCCB182BF75F00D86C98 /* UISpecta-Prefix.pch */,
-				A1E1DCE9182BFD4300D86C98 /* EXPMatchers+beAnimating.h */,
-				A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */,
 				A193DDDD182C198E0051F93D /* UISpectaSupport.h */,
 				A193DDDE182C198E0051F93D /* UISpectaSupport.m */,
+				A1E1DCE9182BFD4300D86C98 /* EXPMatchers+beAnimating.h */,
+				A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */,
+				A193DDE4182C1EC90051F93D /* EXPMatchers+beVisible.h */,
+				A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -147,6 +154,7 @@
 				A1E1DCD6182BF7D800D86C98 /* helpers */,
 				A1E1DCD4182BF7BA00D86C98 /* support */,
 				A1E1DCE7182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m */,
+				A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -339,7 +347,9 @@
 				A1E1DCE1182BFA3500D86C98 /* EXPExpect+Test.m in Sources */,
 				A1E1DCE8182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m in Sources */,
 				A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */,
+				A193DDE6182C1EC90051F93D /* EXPMatchers+beVisible.m in Sources */,
 				A1E1DCEC182C001E00D86C98 /* EXPMatchers+beAnimating.m in Sources */,
+				A193DDE3182C1DD90051F93D /* EXPMatchers+beVisibleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

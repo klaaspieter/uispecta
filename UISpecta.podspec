@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'src/**/*.{h,m}'
   s.requires_arc = true
 
+  s.frameworks = "UIKit"
   s.dependency "Expecta"
 
 end

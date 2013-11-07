@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5BC13AE4F70943B58D8BBCF1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40970767B6F4F01B67A94CA /* libPods-Tests.a */; };
+		A193DDDA182C17890051F93D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A193DDD9182C17890051F93D /* SenTestingKit.framework */; };
+		A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDDE182C198E0051F93D /* UISpectaSupport.m */; };
 		A1E1DCA5182BF70100D86C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCA4182BF70100D86C98 /* Foundation.framework */; };
 		A1E1DCB3182BF70100D86C98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCB2182BF70100D86C98 /* XCTest.framework */; };
 		A1E1DCB4182BF70100D86C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCA4182BF70100D86C98 /* Foundation.framework */; };
 		A1E1DCB6182BF70100D86C98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCB5182BF70100D86C98 /* UIKit.framework */; };
 		A1E1DCE1182BFA3500D86C98 /* EXPExpect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCD8182BF7D800D86C98 /* EXPExpect+Test.m */; };
 		A1E1DCE2182BFA3B00D86C98 /* FakeTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCDA182BF7D800D86C98 /* FakeTestCase.m */; };
-		A1E1DCE3182BFA3B00D86C98 /* Fixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCDC182BF7D800D86C98 /* Fixtures.m */; };
+		A1E1DCE8182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCE7182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m */; };
+		A1E1DCEB182BFD4300D86C98 /* EXPMatchers+beAnimating.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */; };
+		A1E1DCEC182C001E00D86C98 /* EXPMatchers+beAnimating.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */; };
 		D058DFE7D8B64C05A44DDEC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CABB640DDA0460A952531E6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,9 @@
 /* Begin PBXFileReference section */
 		01BF4657B76B42DA8AD403EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2CABB640DDA0460A952531E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A193DDD9182C17890051F93D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A193DDDD182C198E0051F93D /* UISpectaSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISpectaSupport.h; sourceTree = "<group>"; };
+		A193DDDE182C198E0051F93D /* UISpectaSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISpectaSupport.m; sourceTree = "<group>"; };
 		A1E1DCA1182BF70100D86C98 /* libUISpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E1DCA4182BF70100D86C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1E1DCB1182BF70100D86C98 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,9 +61,10 @@
 		A1E1DCD8182BF7D800D86C98 /* EXPExpect+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPExpect+Test.m"; sourceTree = "<group>"; };
 		A1E1DCD9182BF7D800D86C98 /* FakeTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeTestCase.h; sourceTree = "<group>"; };
 		A1E1DCDA182BF7D800D86C98 /* FakeTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeTestCase.m; sourceTree = "<group>"; };
-		A1E1DCDB182BF7D800D86C98 /* Fixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fixtures.h; sourceTree = "<group>"; };
-		A1E1DCDC182BF7D800D86C98 /* Fixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fixtures.m; sourceTree = "<group>"; };
 		A1E1DCDD182BF7D800D86C98 /* TestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelper.h; sourceTree = "<group>"; };
+		A1E1DCE7182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beAnimatingTest.m"; sourceTree = "<group>"; };
+		A1E1DCE9182BFD4300D86C98 /* EXPMatchers+beAnimating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beAnimating.h"; sourceTree = "<group>"; };
+		A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beAnimating.m"; sourceTree = "<group>"; };
 		E8C5778A943E402F86584C2E /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 		F40970767B6F4F01B67A94CA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A193DDDA182C17890051F93D /* SenTestingKit.framework in Frameworks */,
 				A1E1DCB3182BF70100D86C98 /* XCTest.framework in Frameworks */,
 				A1E1DCB6182BF70100D86C98 /* UIKit.framework in Frameworks */,
 				A1E1DCB4182BF70100D86C98 /* Foundation.framework in Frameworks */,
@@ -92,8 +101,8 @@
 				A1E1DCCC182BF76700D86C98 /* tests */,
 				A1E1DCA3182BF70100D86C98 /* frameworks */,
 				A1E1DCA2182BF70100D86C98 /* products */,
+				A74C2327DA0944BFBCA35790 /* frameworks */,
 				01BF4657B76B42DA8AD403EE /* Pods.xcconfig */,
-				A74C2327DA0944BFBCA35790 /* Frameworks */,
 				E8C5778A943E402F86584C2E /* Pods-Tests.xcconfig */,
 			);
 			indentWidth = 2;
@@ -112,6 +121,7 @@
 		A1E1DCA3182BF70100D86C98 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A193DDD9182C17890051F93D /* SenTestingKit.framework */,
 				A1E1DCA4182BF70100D86C98 /* Foundation.framework */,
 				A1E1DCB2182BF70100D86C98 /* XCTest.framework */,
 				A1E1DCB5182BF70100D86C98 /* UIKit.framework */,
@@ -123,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				A1E1DCCB182BF75F00D86C98 /* UISpecta-Prefix.pch */,
+				A1E1DCE9182BFD4300D86C98 /* EXPMatchers+beAnimating.h */,
+				A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */,
+				A193DDDD182C198E0051F93D /* UISpectaSupport.h */,
+				A193DDDE182C198E0051F93D /* UISpectaSupport.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -132,6 +146,7 @@
 			children = (
 				A1E1DCD6182BF7D800D86C98 /* helpers */,
 				A1E1DCD4182BF7BA00D86C98 /* support */,
+				A1E1DCE7182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -151,20 +166,18 @@
 				A1E1DCD8182BF7D800D86C98 /* EXPExpect+Test.m */,
 				A1E1DCD9182BF7D800D86C98 /* FakeTestCase.h */,
 				A1E1DCDA182BF7D800D86C98 /* FakeTestCase.m */,
-				A1E1DCDB182BF7D800D86C98 /* Fixtures.h */,
-				A1E1DCDC182BF7D800D86C98 /* Fixtures.m */,
 				A1E1DCDD182BF7D800D86C98 /* TestHelper.h */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
 		};
-		A74C2327DA0944BFBCA35790 /* Frameworks */ = {
+		A74C2327DA0944BFBCA35790 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				2CABB640DDA0460A952531E6 /* libPods.a */,
 				F40970767B6F4F01B67A94CA /* libPods-Tests.a */,
 			);
-			name = Frameworks;
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E1DCEB182BFD4300D86C98 /* EXPMatchers+beAnimating.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +337,9 @@
 			files = (
 				A1E1DCE2182BFA3B00D86C98 /* FakeTestCase.m in Sources */,
 				A1E1DCE1182BFA3500D86C98 /* EXPExpect+Test.m in Sources */,
-				A1E1DCE3182BFA3B00D86C98 /* Fixtures.m in Sources */,
+				A1E1DCE8182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m in Sources */,
+				A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */,
+				A1E1DCEC182C001E00D86C98 /* EXPMatchers+beAnimating.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +430,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/UISpecta.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UISpecta/UISpecta-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/UISpecta-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -426,7 +442,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/UISpecta.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UISpecta/UISpecta-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/UISpecta-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

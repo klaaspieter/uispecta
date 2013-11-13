@@ -11,4 +11,4 @@
 
 #import "Expecta.h"
 
-EXPMatcherInterface(beHidden, (void));
+EXPMatcherInterface(beInvisible, (void));

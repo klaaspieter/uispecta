@@ -8,3 +8,4 @@
 
 #import "EXPMatchers+beAnimating.h"
 #import "EXPMatchers+beVisible.h"
+#import "EXPMatchers+beInvisible.h"

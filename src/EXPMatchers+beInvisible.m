@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Annema. All rights reserved.
 //
 
-#import "EXPMatchers+beHidden.h"
+#import "EXPMatchers+beInvisible.h"
 
 #import "UISpectaSupport.h"
 
-EXPMatcherImplementationBegin(beHidden, (void)) {
+EXPMatcherImplementationBegin(beInvisible, (void)) {
   BOOL actualIsCompatible = [actual respondsToSelector:@selector(isHidden)] && [actual respondsToSelector:@selector(alpha)];
 
   prerequisite(^BOOL {

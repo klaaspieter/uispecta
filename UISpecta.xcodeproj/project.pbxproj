@@ -12,9 +12,9 @@
 		A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDDE182C198E0051F93D /* UISpectaSupport.m */; };
 		A193DDE3182C1DD90051F93D /* EXPMatchers+beVisibleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */; };
 		A193DDE6182C1EC90051F93D /* EXPMatchers+beVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */; };
-		A1A7BBDF18340993008C1EE1 /* EXPMatchers+beHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBDE18340993008C1EE1 /* EXPMatchers+beHidden.m */; };
-		A1A7BBE1183409A4008C1EE1 /* EXPMatchers+beHiddenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beHiddenTest.m */; };
-		A1A7BBE218340AA4008C1EE1 /* EXPMatchers+beHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBDE18340993008C1EE1 /* EXPMatchers+beHidden.m */; };
+		A1A7BBDF18340993008C1EE1 /* EXPMatchers+beInvisible.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBDE18340993008C1EE1 /* EXPMatchers+beInvisible.m */; };
+		A1A7BBE1183409A4008C1EE1 /* EXPMatchers+beInvisibleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beInvisibleTest.m */; };
+		A1A7BBE218340AA4008C1EE1 /* EXPMatchers+beInvisible.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A7BBDE18340993008C1EE1 /* EXPMatchers+beInvisible.m */; };
 		A1A7BBE318340AB3008C1EE1 /* EXPMatchers+beVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */; };
 		A1A7BBE418340AB9008C1EE1 /* UISpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A193DDDE182C198E0051F93D /* UISpectaSupport.m */; };
 		A1E1DCA5182BF70100D86C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1DCA4182BF70100D86C98 /* Foundation.framework */; };
@@ -61,9 +61,9 @@
 		A193DDE4182C1EC90051F93D /* EXPMatchers+beVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beVisible.h"; sourceTree = "<group>"; };
 		A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beVisible.m"; sourceTree = "<group>"; };
 		A193DDE7182C221B0051F93D /* UISpecta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISpecta.h; sourceTree = "<group>"; };
-		A1A7BBDD18340993008C1EE1 /* EXPMatchers+beHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beHidden.h"; sourceTree = "<group>"; };
-		A1A7BBDE18340993008C1EE1 /* EXPMatchers+beHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beHidden.m"; sourceTree = "<group>"; };
-		A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beHiddenTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beHiddenTest.m"; sourceTree = "<group>"; };
+		A1A7BBDD18340993008C1EE1 /* EXPMatchers+beInvisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+beInvisible.h"; sourceTree = "<group>"; };
+		A1A7BBDE18340993008C1EE1 /* EXPMatchers+beInvisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beInvisible.m"; sourceTree = "<group>"; };
+		A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beInvisibleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+beInvisibleTest.m"; sourceTree = "<group>"; };
 		A1E1DCA1182BF70100D86C98 /* libUISpecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUISpecta.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E1DCA4182BF70100D86C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1E1DCB1182BF70100D86C98 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,8 +154,8 @@
 				A1E1DCEA182BFD4300D86C98 /* EXPMatchers+beAnimating.m */,
 				A193DDE4182C1EC90051F93D /* EXPMatchers+beVisible.h */,
 				A193DDE5182C1EC90051F93D /* EXPMatchers+beVisible.m */,
-				A1A7BBDD18340993008C1EE1 /* EXPMatchers+beHidden.h */,
-				A1A7BBDE18340993008C1EE1 /* EXPMatchers+beHidden.m */,
+				A1A7BBDD18340993008C1EE1 /* EXPMatchers+beInvisible.h */,
+				A1A7BBDE18340993008C1EE1 /* EXPMatchers+beInvisible.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				A1E1DCD4182BF7BA00D86C98 /* support */,
 				A1E1DCE7182BFC3A00D86C98 /* EXPMatchers+beAnimatingTest.m */,
 				A193DDE2182C1DD90051F93D /* EXPMatchers+beVisibleTest.m */,
-				A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beHiddenTest.m */,
+				A1A7BBE0183409A4008C1EE1 /* EXPMatchers+beInvisibleTest.m */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -350,7 +350,7 @@
 			files = (
 				A1A7BBE318340AB3008C1EE1 /* EXPMatchers+beVisible.m in Sources */,
 				A1E1DCEB182BFD4300D86C98 /* EXPMatchers+beAnimating.m in Sources */,
-				A1A7BBDF18340993008C1EE1 /* EXPMatchers+beHidden.m in Sources */,
+				A1A7BBDF18340993008C1EE1 /* EXPMatchers+beInvisible.m in Sources */,
 				A1A7BBE418340AB9008C1EE1 /* UISpectaSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,8 +365,8 @@
 				A193DDDF182C198E0051F93D /* UISpectaSupport.m in Sources */,
 				A193DDE6182C1EC90051F93D /* EXPMatchers+beVisible.m in Sources */,
 				A1E1DCEC182C001E00D86C98 /* EXPMatchers+beAnimating.m in Sources */,
-				A1A7BBE218340AA4008C1EE1 /* EXPMatchers+beHidden.m in Sources */,
-				A1A7BBE1183409A4008C1EE1 /* EXPMatchers+beHiddenTest.m in Sources */,
+				A1A7BBE218340AA4008C1EE1 /* EXPMatchers+beInvisible.m in Sources */,
+				A1A7BBE1183409A4008C1EE1 /* EXPMatchers+beInvisibleTest.m in Sources */,
 				A193DDE3182C1DD90051F93D /* EXPMatchers+beVisibleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

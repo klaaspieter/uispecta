@@ -21,7 +21,7 @@ EXPMatcherImplementationBegin(beInvisible, (void)) {
     if (!actualIsCompatible) {
       return NO;
     } else {
-      return [actual isHidden] || [actual alpha] <= 0.0;
+      return [actual isHidden] || [actual alpha] <= 0.0 || ![[actual window] screen];
     }
   });
 
